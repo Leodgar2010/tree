@@ -91,7 +91,7 @@ class Tree:
                 curr = curr.right
         return curr
 
-    # rotate left at node x
+    ## поворот дерева влево в данном узле
     def rotate_left(self, x):
         y = x.right
         x.right = y.left
